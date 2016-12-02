@@ -1,0 +1,20 @@
+Part 1: Discussion Questions
+
+Recursion
+
+1. In your own words, what is recursion?
+When a function calls itself within its definition, so it runs in a nested fashion.
+
+2. Why is it necessary to have a base case?
+To tell under what condition to stop recursing
+
+Graphs
+
+1. What is a graph?
+Data structures used to model relationships among things, with nodes having 0 or more connections, they can be cyclic (graph can contain a cycle ex: last node points to first node) or acyclic, and directed (graph has a direction of flow based on nodes' relationships because node1 has a different to node2 than node2 has to node1 ex: predator-prey relationships) or undirected (graph doesn't have a direction of flow because relationships types among nodes are the same ex: friends on social media)
+
+2. How is a graph different from a tree?
+Graphs are not hierarchical, and trees are; graphs can be either cyclic or acyclic, and trees can only be acyclic; and graphs can be directed or undirected, while trees can only be directed
+
+3. Give an example of something that would be good to model with a graph.
+Train stations that connect public transportation systems together aka a station that offers a connection between muni and bart or bart and caltrain 
